@@ -1,0 +1,165 @@
+$date
+	Thu Oct 16 15:30:23 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dff_tb $end
+$var wire 6 ! q [5:0] $end
+$var reg 1 " clk $end
+$var reg 1 # serial_in $end
+$var reg 1 $ shift_en $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # serial_in $end
+$var wire 1 $ shift_en $end
+$var wire 6 % q [5:0] $end
+$var wire 6 & d [5:0] $end
+$scope module dff0 $end
+$var wire 1 " clk $end
+$var wire 1 ' d $end
+$var wire 1 ( q $end
+$var reg 1 ( q_reg $end
+$upscope $end
+$scope module dff1 $end
+$var wire 1 " clk $end
+$var wire 1 ) d $end
+$var wire 1 * q $end
+$var reg 1 * q_reg $end
+$upscope $end
+$scope module dff2 $end
+$var wire 1 " clk $end
+$var wire 1 + d $end
+$var wire 1 , q $end
+$var reg 1 , q_reg $end
+$upscope $end
+$scope module dff3 $end
+$var wire 1 " clk $end
+$var wire 1 - d $end
+$var wire 1 . q $end
+$var reg 1 . q_reg $end
+$upscope $end
+$scope module dff4 $end
+$var wire 1 " clk $end
+$var wire 1 / d $end
+$var wire 1 0 q $end
+$var reg 1 0 q_reg $end
+$upscope $end
+$scope module dff5 $end
+$var wire 1 " clk $end
+$var wire 1 1 d $end
+$var wire 1 2 q $end
+$var reg 1 2 q_reg $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+bx &
+bx %
+0$
+0#
+0"
+bx !
+$end
+#5000
+1"
+#10000
+1'
+bx1 &
+0"
+1#
+1$
+#15000
+1)
+bx11 &
+bx1 !
+bx1 %
+1(
+1"
+#20000
+0'
+bx10 &
+0"
+0#
+#25000
+0)
+1+
+bx100 &
+0(
+bx10 !
+bx10 %
+1*
+1"
+#30000
+1'
+bx101 &
+0"
+1#
+#35000
+1-
+0+
+1)
+bx1011 &
+1,
+0*
+bx101 !
+bx101 %
+1(
+1"
+#40000
+0)
+1+
+x-
+bx101 &
+0"
+0#
+0$
+#45000
+1"
+#50000
+1)
+0+
+1-
+bx1011 &
+0"
+1#
+1$
+#55000
+1/
+0-
+1+
+bx10111 &
+1.
+0,
+bx1011 !
+bx1011 %
+1*
+1"
+#60000
+0+
+1-
+x/
+bx1011 &
+0"
+0$
+#65000
+1"
+#70000
+0"

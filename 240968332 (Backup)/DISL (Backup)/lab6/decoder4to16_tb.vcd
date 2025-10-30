@@ -1,0 +1,107 @@
+$date
+	Thu Sep 11 14:51:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_decoder4to16 $end
+$var wire 16 ! y [15:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 1 # en $end
+$scope module uut $end
+$var wire 4 $ a [3:0] $end
+$var wire 1 # en $end
+$var wire 8 % y_low [7:0] $end
+$var wire 8 & y_high [7:0] $end
+$var wire 16 ' y [15:0] $end
+$scope module d0 $end
+$var wire 3 ( a [2:0] $end
+$var wire 1 ) en $end
+$var reg 8 * y [7:0] $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$scope module d1 $end
+$var wire 3 , a [2:0] $end
+$var wire 1 - en $end
+$var reg 8 . y [7:0] $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx /
+b0 .
+0-
+b0 ,
+bx +
+b0 *
+0)
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+b0 "
+b0 !
+$end
+#10000
+b1 !
+b1 '
+b1 %
+b1 *
+b1000 +
+1)
+1#
+#20000
+b1000 !
+b1000 '
+b1000 %
+b1000 *
+b1000 +
+b11 (
+b11 ,
+b11 "
+b11 $
+#30000
+0)
+b1 &
+b1 .
+b1000 /
+b100000000 !
+b100000000 '
+b0 %
+b0 *
+b1000 +
+1-
+b0 (
+b0 ,
+b1000 "
+b1000 $
+#40000
+b1000000000000000 !
+b1000000000000000 '
+b10000000 &
+b10000000 .
+b1000 /
+b111 (
+b111 ,
+b1111 "
+b1111 $
+#50000
+b0 !
+b0 '
+b0 &
+b0 .
+b101 (
+b101 ,
+0-
+b101 "
+b101 $
+0#
+#60000

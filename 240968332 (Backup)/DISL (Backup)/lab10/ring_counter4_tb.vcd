@@ -1,0 +1,98 @@
+$date
+	Fri Oct 24 10:42:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ring_counter4_tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # resetn $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # resetn $end
+$var wire 4 $ q [3:0] $end
+$var wire 2 % count [1:0] $end
+$scope module c1 $end
+$var wire 1 " clk $end
+$var wire 1 # resetn $end
+$var reg 2 & count [1:0] $end
+$upscope $end
+$scope module d1 $end
+$var wire 2 ' in [1:0] $end
+$var wire 4 ( out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 (
+b0 '
+b0 &
+b0 %
+b1 $
+0#
+0"
+b1 !
+$end
+#10
+1"
+#20
+0"
+#25
+1#
+#30
+b10 !
+b10 $
+b10 (
+b1 %
+b1 &
+b1 '
+1"
+#40
+0"
+#50
+b100 !
+b100 $
+b100 (
+b10 %
+b10 &
+b10 '
+1"
+#60
+0"
+#70
+b1000 !
+b1000 $
+b1000 (
+b11 %
+b11 &
+b11 '
+1"
+#80
+0"
+#90
+b1 !
+b1 $
+b1 (
+b0 %
+b0 &
+b0 '
+1"
+#100
+0"
+#110
+b10 !
+b10 $
+b10 (
+b1 %
+b1 &
+b1 '
+1"
+#120
+0"
+#125

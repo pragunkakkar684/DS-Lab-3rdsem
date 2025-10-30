@@ -1,0 +1,65 @@
+$date
+	Thu Sep 11 15:43:12 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_priority_encoder_16to4 $end
+$var wire 4 ! out [3:0] $end
+$var reg 16 " in [15:0] $end
+$scope module uut $end
+$var wire 16 # in [15:0] $end
+$var reg 1 $ found $end
+$var reg 4 % out [3:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111111111111 &
+bx %
+0$
+b0 #
+b0 "
+bx !
+$end
+#10000
+1$
+b0 !
+b0 %
+b11111111111111111111111111111111 &
+b1 "
+b1 #
+#20000
+b11111111111111111111111111111111 &
+1$
+b1 !
+b1 %
+b10 "
+b10 #
+#30000
+b11111111111111111111111111111111 &
+1$
+b111 !
+b111 %
+b10000000 "
+b10000000 #
+#40000
+b11111111111111111111111111111111 &
+1$
+b1100 !
+b1100 %
+b1000000000000 "
+b1000000000000 #
+#50000
+b11111111111111111111111111111111 &
+1$
+b1111 !
+b1111 %
+b1111111111111111 "
+b1111111111111111 #
+#60000
