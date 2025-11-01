@@ -1,0 +1,124 @@
+$date
+	Fri Oct 10 12:28:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module sequential_circuit_tb $end
+$var wire 1 ! B $end
+$var wire 1 " A $end
+$var reg 1 # clk $end
+$var reg 1 $ x $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 ! B $end
+$var wire 1 % T_A $end
+$var wire 1 & T_B $end
+$var wire 1 # clk $end
+$var wire 1 $ x $end
+$var wire 1 ' B_wire $end
+$var wire 1 ( A_wire $end
+$scope module ff_A $end
+$var wire 1 % T $end
+$var wire 1 # clk $end
+$var reg 1 ( Q $end
+$upscope $end
+$scope module ff_B $end
+$var wire 1 & T $end
+$var wire 1 # clk $end
+$var reg 1 ' Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+0&
+1%
+1!
+1'
+1#
+#20
+1&
+0#
+1$
+#30
+0&
+0%
+0!
+0'
+1"
+1(
+1#
+#40
+0#
+#50
+1&
+1#
+0$
+#60
+0#
+#70
+1%
+1!
+1'
+1#
+#80
+0#
+#90
+0"
+0(
+0!
+0'
+0&
+0%
+1#
+1$
+#100
+0#
+#110
+1#
+#120
+0#
+#130
+1#
+#140
+1&
+0#
+0$
+#150
+0&
+1%
+1!
+1'
+1#
+#160
+0#
+#170
+1&
+1"
+1(
+1#
+#180
+0#
+#190
+0%
+0!
+0'
+0"
+0(
+1#
+#200
